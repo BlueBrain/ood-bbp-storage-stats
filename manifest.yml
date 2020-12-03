@@ -1,2 +1,5 @@
-name: Passenger App Processes
-description: Display your running Passenger app proceseses in a table
+name: Storage Stats
+description: Display data storage statistics
+icon: fa://hdd-o
+category: Files
+subcategory: Utilities

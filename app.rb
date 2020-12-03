@@ -18,14 +18,14 @@ helpers do
   end
 
   def title
-    "Passenger App Processes"
+    "Storage Stats: Personal Home & Project Quotas"
   end
 end
 
 # Define a route at the root '/' of the app.
 get '/' do
   @command = Command.new
-  @processes, @error = @command.exec
+  @projectStorageStats, @error = @command.exec
 
   # Render the view
   erb :index
